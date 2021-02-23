@@ -1,19 +1,8 @@
 
-let domain = 'http://localhost:8080'
+let domain = 'http://api-admin.cunzhangshuo.yidaoit.net'
 
 module.exports = {
-	// 请求域名 格式： https://您的域名
-	// #ifdef MP
-		// HTTP_REQUEST_URL:'',
-		HTTP_REQUEST_URL:domain,
-	// #endif
-	
-	// #ifdef H5
-		//H5接口是浏览器地址
-		// HTTP_REQUEST_URL: window.location.protocol+"//"+window.location.host,
-		HTTP_REQUEST_URL:domain,
-	// #endif
-	
+	HTTP_REQUEST_URL:domain,
 	HEADER:{
 		'content-type': 'application/json'
 	},
