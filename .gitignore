@@ -28,3 +28,4 @@ unpackage
 *.local
 .hbuilderx
 *.sw*
+.hbuilder
