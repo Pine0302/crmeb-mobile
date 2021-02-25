@@ -108,7 +108,7 @@
 			</button>
 			<!-- #endif -->
 		</view>
-		<img src="/static/images/support.png" alt="" class='support'>
+		<img src="" alt="" class='support'>
 		<!-- #ifdef MP -->
 		<authorize @onLoadFun="onLoadFun" :isAuto="isAuto" :isShowAuth="isShowAuth" @authColse="authColse"></authorize>
 		<!-- #endif -->
