@@ -1,5 +1,5 @@
 
-let domain = 'http://api-dev.daodaobao.yidaoit.net'
+let domain = 'https://api-dev.daodaobao.yidaoit.net'
 
 module.exports = {
 	HTTP_REQUEST_URL:domain,
